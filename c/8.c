@@ -7,6 +7,17 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
+	int n;
+	scanf_s("%d", &n);
 
+	int sum = 0;
+	int multiply = 1;
+
+	for (int i = 1; i <= n; i++) {
+		sum += i;
+		multiply *= i;
+	}
+
+	printf("%d\n%d", sum, multiply);
     return 0;
 }

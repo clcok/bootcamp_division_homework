@@ -7,6 +7,11 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
-
+	int n;
+	scanf_s("%d", &n);
+	int hundred = n / 100;
+	int ten = (n % 100) / 10;
+	int one = n % 10;
+	printf("%d", one * 100 + ten * 10 + hundred);
     return 0;
 }

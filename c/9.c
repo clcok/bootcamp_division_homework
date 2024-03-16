@@ -7,6 +7,17 @@
 
 int main() {
     // 이곳에 코드를 작성해주세요!
+	int n;
+	scanf_s("%d", &n);
+	while (n <= 0) {
+		printf("X\n");
+		scanf_s("%d", &n);
+	}
 
+	int sum = 0;
+	for (int i = 1; i <= n; i++)
+		sum += i;
+
+	printf("%d", sum);
     return 0;
 }
