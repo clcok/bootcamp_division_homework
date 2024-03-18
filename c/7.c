@@ -9,8 +9,8 @@ int main() {
     // 이곳에 코드를 작성해주세요!
 	int year;
 	int month;
-	scanf_s("%d", &year);
-	scanf_s("%d", &month);
+	scanf("%d", &year);
+	scanf("%d", &month);
 
 	int check = 0;//윤년이면 1로 바꿈//
 

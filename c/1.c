@@ -8,7 +8,7 @@
 int main() {
     // 이곳에 코드를 작성해주세요!
 	int n;//
-	scanf_s("%d", &n);
+	scanf("%d", &n);
 	int hundred = n / 100;
 	int ten = (n % 100) / 10;
 	int one = n % 10;

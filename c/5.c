@@ -8,8 +8,8 @@
 int main() {
     // 이곳에 코드를 작성해주세요!//
 	int age, cm;
-	scanf_s("%d", &age);
-	scanf_s("%d", &cm);
+	scanf("%d", &age);
+	scanf("%d", &cm);
 
 	if (age>=14||cm>=160)
 		printf("X");
