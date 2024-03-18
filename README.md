@@ -31,8 +31,7 @@
    ```
 1. clone한 repository를 Visual Studio Code로 열어줍니다.
    ```bash
-   cd {{Repository name}}
-   # 예시 cd haedal_bootcamp_division_homework
+   cd haedal_bootcamp_division_homework
    code .
    ```
 1. [주의 사항](#🚨-주의-사항)을 지키며 문제를 풉니다.
