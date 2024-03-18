@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 int main() {
-	int age;
+	int age;//
 	scanf_s("%d", &age);
 
 	if (age >= 61)

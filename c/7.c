@@ -12,7 +12,7 @@ int main() {
 	scanf_s("%d", &year);
 	scanf_s("%d", &month);
 
-	int check = 0;//윤년이면 1로 바꿈
+	int check = 0;//윤년이면 1로 바꿈//
 
 	if (year % 400 == 0 || ((year % 4 == 0) && (year % 100 != 0)))
 		check = 1;

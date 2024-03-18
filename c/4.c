@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 int main() {
-    // 이곳에 코드를 작성해주세요!
+    // 이곳에 코드를 작성해주세요!//
 	int score;
 	scanf_s("%d", &score);
 	if (score >= 90)
